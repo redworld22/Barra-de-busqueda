@@ -1,0 +1,57 @@
+.material-symbols-outlined {
+    font-family: 'Material Symbols Outlined';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;  /* Preferred icon size */
+    display: inline-block;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+  }
+  
+body{
+  font-family: sans-serif;
+}
+
+.search-bar{
+    border: solid 1px #ccc;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 5px 10px;
+    margin: 100px auto;
+  }
+
+  .search-bar:focus-within{
+    border: solid 1px #aaa;
+    box-shadow: 0px 2px 5px rgba(35, 35, 36, 0.2);
+  }
+
+  .search-bar__input{
+    border: none;
+    outline: none;
+    padding: 10px;
+    font-size: 18px;
+    flex: auto;
+  }
+
+  .actions{
+    display: flex;
+    gap: 5px;
+  }
+
+  .actions button{
+    border: none;
+    outline: none;
+    background: none;
+    cursor: pointer;
+    color: #999;
+  }
+
+  .actions button:hover{
+    color: #2979e2;
+  }
